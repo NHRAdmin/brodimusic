@@ -17,6 +17,8 @@ class music(commands.Cog):
 
         self.vc = ""
 
+        print("Im Alive")
+
      #searching the item on youtube
     def search_yt(self, item):
         with YoutubeDL(self.YDL_OPTIONS) as ydl:
