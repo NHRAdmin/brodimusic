@@ -1,1 +1,1 @@
-web: gunicorn main:brodimusic
+web: python "main.py"
